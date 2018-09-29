@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_bottom_logout_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_bottom_logout_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_microphone_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_microphone_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/nim_list_item_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/nim_list_item_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_camera_mute_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_camera_mute_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_mute_speaker_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_mute_speaker_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/multi_select_switch_bg_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/multi_select_switch_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_refuse_bg_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_refuse_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_mute_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_mute_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/multi_select_ok_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/multi_select_ok_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_audio_call_text_color_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_audio_call_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/multi_select_text_color_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/multi_select_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/multi_select_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/multi_select_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_speaker_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_speaker_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_camera_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_camera_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e9b02015d220cb43384a032a189be3b1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_video_record_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_video_record_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_hangup_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_hangup_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_voice_normal.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_voice_normal.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_switch_camera_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_switch_camera_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_disable_user_audio_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_disable_user_audio_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/multi_select_cancel_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/multi_select_cancel_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_logut_bg_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_logut_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_receive_bg_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_receive_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e9b02015d220cb43384a032a189be3b1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/nim_actionbar_nest_dark_logo.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/nim_actionbar_nest_dark_logo.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_close_camera_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_close_camera_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e9b02015d220cb43384a032a189be3b1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_audio_record_icon_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_audio_record_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_speaker_icon_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_speaker_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/design_password_eye.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_voice_mute.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_voice_mute.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e9b02015d220cb43384a032a189be3b1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/video_audio_mode_switch_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/video_audio_mode_switch_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_mute_icon_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_mute_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_microphone_mute_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_microphone_mute_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/avchat_switch_camera_bg.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/avchat_switch_camera_bg.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/t_avchat_speaker_mute_selector.xml",
+        "source": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/src/main/res/drawable/t_avchat_speaker_mute_selector.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/drawable/abc_list_selector_holo_light.xml"
+    }
+]

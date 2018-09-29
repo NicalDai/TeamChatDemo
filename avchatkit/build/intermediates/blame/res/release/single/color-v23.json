@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0f7577be1e3c9eb8130e82e10ab22817/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Nical/Documents/NIM_DEMO/Android/TeamChatDemo/avchatkit/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Nical/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2c18626413df9554dfe867bfc2e2a990/res/color-v23/abc_tint_switch_track.xml"
+    }
+]
