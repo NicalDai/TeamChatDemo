@@ -19,8 +19,12 @@ import com.netease.nical.teamchatdemo.TeamMemberSelection.TeamSelectedAdapter;
 import com.netease.nical.teamchatdemo.TeamSelection.Activity.TeamSelectActivity;
 import com.netease.nim.avchatkit.AVChatKit;
 import com.netease.nim.avchatkit.TeamAVChatProfile;
+import com.netease.nim.avchatkit.common.log.LogUtil;
 import com.netease.nimlib.sdk.NIMClient;
+import com.netease.nimlib.sdk.Observer;
 import com.netease.nimlib.sdk.RequestCallback;
+import com.netease.nimlib.sdk.auth.AuthServiceObserver;
+import com.netease.nimlib.sdk.auth.constant.LoginSyncStatus;
 import com.netease.nimlib.sdk.avchat.AVChatCallback;
 import com.netease.nimlib.sdk.avchat.AVChatManager;
 import com.netease.nimlib.sdk.avchat.model.AVChatChannelInfo;
@@ -49,6 +53,8 @@ public class MemberSelectActivity extends AppCompatActivity {
     private TeamSelectedAdapter teamSelectedAdapter;
     private List<TeamMember> members = new ArrayList<>();
 
+    private Boolean isFirstShow = false;
+
     private List<MemberSelectedItem> selectedItems = new ArrayList<>();
 
     private Map positionPair = new HashMap();
@@ -60,16 +66,19 @@ public class MemberSelectActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
+
         Intent intent = getIntent();
         tid = intent.getStringExtra("tid");
         tname = intent.getStringExtra("tname");
+
+        getTeamMember(tid);
 
         //初始化View
         initView();
         //初始化RecyclerView
         initRecyclerView();
 
-        getTeamMember(tid);
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,6 +136,8 @@ public class MemberSelectActivity extends AppCompatActivity {
         teamShowName.setText(tname);
 
     }
+
+
 
     /**
      * 初始化两个RecyclerView，一个adapter，一个teamSelectedAdapter
@@ -201,7 +212,8 @@ public class MemberSelectActivity extends AppCompatActivity {
                 for (int i = 0;i < teamMembers.size();i++){
                     if(!teamMembers.get(i).getAccount().equals(currentLoginAccount)){
                         members.add(teamMembers.get(i));
-                        adapter.notifyItemInserted(members.size()-1);
+//                        adapter.notifyItemInserted(members.size()-1);
+                        adapter.notifyDataSetChanged();
                     }
                 }
             }
@@ -221,7 +233,6 @@ public class MemberSelectActivity extends AppCompatActivity {
 
     private void onCreateRoomSuccess(String roomName, List<String> accounts) {
 
-
         // 对各个成员发送点对点自定义通知
 
         String content = TeamAVChatProfile.sharedInstance().buildContent(roomName, tid, accounts, tname);
@@ -239,6 +250,7 @@ public class MemberSelectActivity extends AppCompatActivity {
 
             command.setSendToOnlineUserOnly(false);
             NIMClient.getService(MsgService.class).sendCustomNotification(command);
+
         }
     }
 

@@ -2,7 +2,8 @@ package com.netease.nical.teamchatdemo;
 
 import android.app.Application;
 import android.content.Context;
-import android.util.Log;
+import android.content.Intent;
+import android.os.SystemClock;
 
 import com.netease.nical.teamchatdemo.Login.Activity.MainActivity;
 import com.netease.nim.avchatkit.AVChatKit;
@@ -10,12 +11,12 @@ import com.netease.nim.avchatkit.config.AVChatOptions;
 import com.netease.nim.avchatkit.model.ITeamDataProvider;
 import com.netease.nim.avchatkit.model.IUserInfoProvider;
 import com.netease.nimlib.sdk.NIMClient;
+import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.team.TeamService;
 import com.netease.nimlib.sdk.team.model.TeamMember;
 import com.netease.nimlib.sdk.uinfo.UserService;
 import com.netease.nimlib.sdk.uinfo.model.UserInfo;
 import com.netease.nimlib.sdk.util.NIMUtil;
-import com.netease.nimlib.service.NimService;
 
 public class NIMApplication extends Application{
     @Override
@@ -29,19 +30,21 @@ public class NIMApplication extends Application{
 
     private void initAVChatKit(){
 
-        AVChatKit.setContext(getApplicationContext());
+
 
         AVChatOptions avChatOptions = new AVChatOptions(){
             @Override
             public void logout(Context context) {
-//                MainActivity.logout(context, true);
+                NIMClient.getService(AuthService.class).logout();
+                SystemClock.sleep(1000);
+                Intent intent = new Intent(context,MainActivity.class);
+                startActivity(intent);
             }
         };
 
         AVChatKit.init(avChatOptions);
 
-
-// 设置用户相关资料提供者
+        // 设置用户相关资料提供者
         AVChatKit.setUserInfoProvider(new IUserInfoProvider() {
             @Override
             public UserInfo getUserInfo(String account) {
@@ -62,7 +65,8 @@ public class NIMApplication extends Application{
                 }
             }
         });
-// 设置群组数据提供者
+
+        // 设置群组数据提供者
         AVChatKit.setTeamDataProvider(new ITeamDataProvider() {
             @Override
             public String getDisplayNameWithoutMe(String teamId, String account) {

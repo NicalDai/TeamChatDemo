@@ -34,4 +34,11 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
     implementation 'jp.wasabeef:glide-transformations:3.0.1'
 
+    // 基础功能 (必需)
+    api 'com.netease.nimlib:basesdk:6.1.1'
+    // 音视频和互动白板服务需要
+    api 'com.netease.nimlib:nrtc:6.1.1'
+    // 音视频需要
+    api 'com.netease.nimlib:avchat:6.1.1'
+
 }

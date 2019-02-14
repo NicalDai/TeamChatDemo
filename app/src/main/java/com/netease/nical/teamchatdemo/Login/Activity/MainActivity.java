@@ -21,17 +21,16 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-
 import com.netease.nical.teamchatdemo.Login.CustomBoolean;
 import com.netease.nical.teamchatdemo.Login.DataSaveToLocal;
 import com.netease.nical.teamchatdemo.Login.EditTextClearTools;
 import com.netease.nical.teamchatdemo.Login.MD5.MD5;
-import com.netease.nical.teamchatdemo.NimSDKOptionConfig;
-import com.netease.nical.teamchatdemo.R;
 import com.netease.nical.teamchatdemo.Login.permission.MPermission;
 import com.netease.nical.teamchatdemo.Login.permission.annotation.OnMPermissionDenied;
 import com.netease.nical.teamchatdemo.Login.permission.annotation.OnMPermissionGranted;
 import com.netease.nical.teamchatdemo.Login.permission.annotation.OnMPermissionNeverAskAgain;
+import com.netease.nical.teamchatdemo.NimSDKOptionConfig;
+import com.netease.nical.teamchatdemo.R;
 import com.netease.nical.teamchatdemo.TeamSelection.Activity.TeamSelectActivity;
 import com.netease.nim.avchatkit.AVChatKit;
 import com.netease.nimlib.sdk.NIMClient;
@@ -219,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(LoginInfo loginInfo) {
                 Toast.makeText(MainActivity.this, "登陆成功！", Toast.LENGTH_SHORT).show();
                 AVChatKit.setAccount(loginInfo.getAccount());
+                AVChatKit.setContext(getApplicationContext());
                 //判断是否需要本地存储密码(CheckBox打钩)
                 if (needRecordPassword){
                     dataSaveToLocal.saveDataToLocal(loginInfo.getAccount()+","+loginInfo.getToken(),filePath);

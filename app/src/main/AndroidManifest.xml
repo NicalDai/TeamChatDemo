@@ -94,7 +94,7 @@
             android:exported="false"
             android:process=":core" />
 
-        <activity android:name=".Login.Activity.MainActivity">
+        <activity android:name="com.netease.nical.teamchatdemo.Login.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

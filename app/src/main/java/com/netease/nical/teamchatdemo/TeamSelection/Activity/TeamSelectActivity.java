@@ -1,7 +1,6 @@
 package com.netease.nical.teamchatdemo.TeamSelection.Activity;
 
 import android.content.Intent;
-import android.os.Message;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,8 +16,12 @@ import com.netease.nical.teamchatdemo.Login.Activity.MainActivity;
 import com.netease.nical.teamchatdemo.R;
 import com.netease.nical.teamchatdemo.TeamMemberSelection.Activity.MemberSelectActivity;
 import com.netease.nical.teamchatdemo.TeamSelection.TeamListAdapter;
+import com.netease.nim.avchatkit.common.log.LogUtil;
 import com.netease.nimlib.sdk.NIMClient;
+import com.netease.nimlib.sdk.Observer;
 import com.netease.nimlib.sdk.auth.AuthService;
+import com.netease.nimlib.sdk.auth.AuthServiceObserver;
+import com.netease.nimlib.sdk.auth.constant.LoginSyncStatus;
 import com.netease.nimlib.sdk.team.TeamService;
 import com.netease.nimlib.sdk.team.model.Team;
 
@@ -48,8 +51,11 @@ public class TeamSelectActivity extends AppCompatActivity {
         initRecyclerView();
         //设置Item点击事件
         setItemOnClickListener();
+
+        //注册数据同步的观察者
+        registerSyncState(true);
         //Get Team List
-        getTeam();
+//        getTeam();
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +69,21 @@ public class TeamSelectActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    private void registerSyncState(Boolean register){
+        NIMClient.getService(AuthServiceObserver.class).observeLoginSyncDataStatus(new Observer<LoginSyncStatus>() {
+            @Override
+            public void onEvent(LoginSyncStatus status) {
+                if (status == LoginSyncStatus.BEGIN_SYNC) {
+                    LogUtil.i("observeLoginSyncDataStatus", "login sync data begin");
+                } else if (status == LoginSyncStatus.SYNC_COMPLETED) {
+                    LogUtil.i("observeLoginSyncDataStatus", "login sync data completed");
+                    Toast.makeText(TeamSelectActivity.this, "数据同步成功", Toast.LENGTH_SHORT).show();
+                    getTeam();
+                }
+            }
+        }, register);
     }
 
 
@@ -102,7 +123,8 @@ public class TeamSelectActivity extends AppCompatActivity {
         if (!(localteams == null)){
             for (int i = 0;i < localteams.size();i++){
                 teams.add(localteams.get(i));
-                adapter.notifyItemInserted(teams.size()-1);
+//                adapter.notifyItemInserted(teams.size()-1);
+                adapter.notifyDataSetChanged();
             }
         }
     }

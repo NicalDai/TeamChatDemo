@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.view.ViewGroup;
@@ -399,6 +400,13 @@ public class TeamAVChatActivity extends UI {
             public void onReportSpeaker(Map<String, Integer> speakers, int mixedEnergy) {
                 onAudioVolume(speakers);
             }
+
+            @Override
+            public void onAVRecordingCompletion(String account, String filePath) {
+                super.onAVRecordingCompletion(account, filePath);
+                Toast.makeText(TeamAVChatActivity.this, "录制完成" + filePath, Toast.LENGTH_SHORT).show();
+                Log.d(TAG, "onAVRecordingCompletion: 群组通话录制完成" + filePath);
+            }
         };
         AVChatManager.getInstance().observeAVChatState(stateObserver, true);
         LogUtil.i(TAG, "observe rtc state done");
@@ -430,6 +438,10 @@ public class TeamAVChatActivity extends UI {
             public void onSuccess(AVChatData data) {
                 chatId = data.getChatId();
                 LogUtil.i(TAG, "join room success, roomId=" + roomId + ", chatId=" + chatId);
+
+                //TODO 测试录制情况
+                Boolean b = AVChatManager.getInstance().startAVRecording("nical");
+
             }
 
             @Override
@@ -559,6 +571,7 @@ public class TeamAVChatActivity extends UI {
 
         try {
             AVChatManager.getInstance().stopVideoPreview();
+            AVChatManager.getInstance().stopAVRecording("nical");
             AVChatManager.getInstance().leaveRoom2(roomId, null);
             AVChatManager.getInstance().disableRtc();
         } catch (Exception e) {

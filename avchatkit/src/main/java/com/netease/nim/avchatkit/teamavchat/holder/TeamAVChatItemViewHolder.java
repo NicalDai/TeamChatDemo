@@ -42,7 +42,6 @@ public class TeamAVChatItemViewHolder extends TeamAVChatItemViewHolderBase {
     private TextView stateText;
     private ProgressBar volumeBar;
 
-
     public TeamAVChatItemViewHolder(BaseMultiItemFetchLoadAdapter adapter) {
         super(adapter);
     }
